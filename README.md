@@ -18,6 +18,9 @@ You can check som of my proyects in my github portfolio or my linkedin account
 
 ## Languages
 
+[![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]
+
+
 <!--
 **adriangargom/adriangargom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
