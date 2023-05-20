@@ -1,5 +1,6 @@
 # Hello World! <img src="https://github.com/images/mona-whisper.gif"  width="50" height="50">, I'm Adrian
 
+### A software developer currently studying
 
 
 
