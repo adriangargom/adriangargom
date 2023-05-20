@@ -2,7 +2,14 @@
 
 ### A software developer currently studying
 
+Hi, my name is Adrian , and i am currently studying,
+I have arround 3 years of experience in the world of software development, in that time i had work with diferent languages and tools from diferent fields an applications.
 
+You can check som of my proyects in my github portfolio or my linkedin account
+
+
+[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adriangargom)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/adriangargom)
 
 
 <!--
