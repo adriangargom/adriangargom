@@ -1,7 +1,7 @@
 # Hello World! <img src="https://github.com/images/mona-whisper.gif"  width="50" height="50">, I'm Adrian
-
+<!--
 ### A software developer currently studying
-
+-->
 Hi, my name is Adrian , and i am currently studying computer science,
 <br><br>
 I have arround 3 years of self thought experience in the world of software development, in that time i had work with diferent languages and tools from diferent fields an applications.
