@@ -1,4 +1,4 @@
-![cat]([image.jpg](https://github.com/images/mona-whisper.gif))### Hi there 👋
+![cat](https://github.com/images/mona-whisper.gif)### Hi there 👋
 
 
 
