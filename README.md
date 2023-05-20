@@ -16,6 +16,7 @@ You can check som of my proyects in my github portfolio or my linkedin account
 
 # Tecnologies
 
+## Languages
 
 <!--
 **adriangargom/adriangargom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
