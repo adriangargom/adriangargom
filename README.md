@@ -8,6 +8,7 @@ I have arround 3 years of self thought experience in the world of software devel
 <br><br>
 Personaly i enjoy writing both frontend and backend applications!
 
+<hr>
 You can check som of my proyects in my github portfolio or my linkedin account
 
 
