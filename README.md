@@ -1,5 +1,4 @@
-![cat](https://github.com/images/mona-whisper.gif)### Hi there 👋
-
+<img src="https://github.com/images/mona-whisper.gif"  width="600" height="300"> ### Hi, I'm Adrian
 
 
 
