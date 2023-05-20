@@ -4,9 +4,7 @@
 -->
 Hi, my name is Adrian i'm a software Deveoper based in Spain , and i am currently studying computer science,
 <br><br>
-I have arround 3 years of self thought experience in the world of software development, in that time i had work with diferent languages and tools from diferent fields an applications.
-<br><br>
-Personaly i enjoy writing both frontend and backend applications!
+I have arround 3 years of self thought experience in the world of software development, in that time i had work with diferent languages and tools from diferent fields an applications and personaly i enjoy writing both frontend and backend applications!
 
 <hr>
 You can check som of my proyects in my github portfolio or my linkedin account
