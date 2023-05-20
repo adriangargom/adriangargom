@@ -3,6 +3,7 @@
 ### A software developer currently studying
 
 Hi, my name is Adrian , and i am currently studying computer science,
+<br>
 I have arround 3 years of self thought experience in the world of software development, in that time i had work with diferent languages and tools from diferent fields an applications.
 <br>
 Personaly i enjoy writing both frontend and backend applications!
