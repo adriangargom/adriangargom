@@ -1,3 +1,5 @@
+<img src="https://github.com/adriangargom/adriangargom/blob/main/Banner.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+
 # Hello World! <img src="https://github.com/images/mona-whisper.gif"  width="50" height="50">, I'm Adrian
 <!--
 ### A software developer currently studying
