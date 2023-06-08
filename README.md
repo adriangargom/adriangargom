@@ -27,7 +27,7 @@ You can check some of my proyects in my github portfolio or my linkedin account
 |Backend Development |![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)|
 |Other               |![Mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![Sqlite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)|
 
-# Projects
+# Projects ✍
 
 <!--
 **adriangargom/adriangargom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
