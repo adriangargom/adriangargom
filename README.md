@@ -38,11 +38,28 @@ You can check some of my proyects in my github portfolio or my linkedin account
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Sqlite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-| <!-- -->      | <!-- -->        | <!-- -->      |
-|:-------------:|:---------------:|:-------------:|
-| Row 1         | **Bold**        | Cell 3        |
-| Row 2         | *Italic*        | Cell 6        |
-| Row 3         | ~~Strike~~      | Cell 9        |
+<table>
+  <thread>
+    <tr>
+      <th>Field</th>
+      <th>Tecnologies</th>
+    </tr>
+  </thread>
+  <tbody>
+    <tr>
+      R1
+    </tr>
+    
+    <tr>  
+      R2
+    </tr>
+
+    <tr>
+      R3
+    </tr>
+  </tbody>
+</table>
+
 
 <!--
 **adriangargom/adriangargom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
