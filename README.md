@@ -4,7 +4,7 @@
 <!--
 ### A software developer currently studying
 -->
-Hi, my name is Adrian i'm a software Deveoper based in Spain , and i am currently studying a higher level training cycle in multiplatform application development (DAM)
+I'm a software Deveoper based in Spain , and i am currently studying a higher level training cycle in multiplatform application development (DAM)
 <br><br>
 I have several years of experience in the world of Computer Science and more specifically in the field of sofware development, arround the latest years i have been working with diferent development enviroments and tools for diferent purposes and uses, for example frontend with (React), backend with (nodeJS, python), app development with Android Studio or game development with engines like Unity and much more!
 <hr>
