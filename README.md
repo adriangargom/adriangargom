@@ -50,9 +50,6 @@ You can check some of my proyects in my github portfolio or my linkedin account
             <td rowspan=4 align="center">R1 Text</td>
             <td rowspan=2 align="center">R2 Text A</td>
         </tr>
-        <tr>
-            <td align="center">R3 Text B</td>
-        </tr>
     </tbody>
 </table>
 
