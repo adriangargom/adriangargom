@@ -4,12 +4,11 @@
 <!--
 ### A software developer currently studying
 -->
-Hi, my name is Adrian i'm a software Deveoper based in Spain , and i am currently studying computer science,
+Hi, my name is Adrian i'm a software Deveoper based in Spain , and i am currently studying a higher level training cycle in multiplatform application development (DAM)
 <br><br>
-I have arround 3 years of self thought experience in the world of software development, in that time i had work with diferent languages and tools from diferent fields an applications and personaly i enjoy writing both frontend and backend applications!
-
+I have several years of experience in the world of Computer Science and more specifically in the field of sofware development, arround the latest years i have been working with diferent development enviroments and tools for diferent purposes and uses, for example frontend with (React), backend with (nodeJS, python), app development with Android Studio or game development with engines like Unity and much more!
 <hr>
-You can check som of my proyects in my github portfolio or my linkedin account
+You can check some of my proyects in my github portfolio or my linkedin account
 <br>
 <br>
 
