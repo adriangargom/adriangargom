@@ -17,10 +17,7 @@ You can check some of my proyects in my github portfolio or my linkedin account
 ![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)
 [![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/adriangargom04)
 
-# Tecnologies
-
-
-
+# Tecnologies 🖥
 
 | Field              | Tecnology      |
 |:-------------------|:---------------|
