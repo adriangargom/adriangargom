@@ -53,10 +53,6 @@ You can check some of my proyects in my github portfolio or my linkedin account
         <tr>
             <td align="center">R3 Text B</td>
         </tr>
-        <tr>
-            <td rowspan=2 align="center">R2 Text B</td>
-            <td align="center">R3 Text C</td>
-        </tr>
     </tbody>
 </table>
 
