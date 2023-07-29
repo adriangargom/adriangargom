@@ -8,7 +8,7 @@ I'm a software Developer based in Barcelona , and i am currently studying a high
 <br><br>
 I have several years of experience in the world of Computer Science and more specifically in the field of sofware development, arround the latest years i have been working with diferent development enviroments and tools for diferent purposes, for example frontend with (React), backend with (nodeJS, python), app development with Android Studio or game development with engines like Unity and much more!
 <hr>
-Also in that time i have developed plenty of projects so you can take a look a some of them in my Github portfolio or my Linkedin account
+Also in that time i have developed plenty of projects so you can take a look at some of them in my Github portfolio or my Linkedin account
 <br>
 <br>
 
