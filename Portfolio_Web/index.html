@@ -11,11 +11,90 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- JS Code for the interactable menu-->
+    <script>
+        var menuStatus = false;
+
+        function menuInteraction() {
+            var menuContainer = document.getElementById("menu-container").style;
+            var menuCoverZone = document.getElementById("menu-cover-zone").style;
+            var arrowIcon = document.getElementById("butto-arrow-icon").style;
+            var menu = document.getElementById("menu-element").style;
+
+            if(!menuStatus) {
+                menuContainer.transform = "scaleX(0)";
+                menuContainer.transform = "scaleY(0)";
+
+                menu.visibility = "visible";
+                
+                menuContainer.transform = "scaleX(1)";
+                menuCoverZone.transform = "scaleY(1)";
+
+                arrowIcon.transform = "rotate(180deg)";
+                
+                menuStatus = true;
+
+            }else {
+                menuContainer.transform = "scaleX(0)";
+                menuCoverZone.transform = "scaleY(0)";
+
+                arrowIcon.transform = "rotate(360deg)";
+                
+                menuStatus = false;
+
+                setTimeout(() => {
+                    document.getElementById("menu-element").style.visibility = "hidden";
+                }, 500)
+            }
+        }
+
+    </script>
+
+
 </head>
 <body>
 
-    <header>
+    <!-- Side Menu -->
 
+    <button onclick="menuInteraction()" class="side-menu-open-button" style="z-index: 1;">
+        <span id="butto-arrow-icon" class="material-symbols-outlined">
+            arrow_forward_ios
+        </span>
+    </button>
+
+    <menu id="menu-element">
+        <article id="menu-container" class="side-menu" style="z-index: 1;">
+            
+            
+            <h1 class="font-title side-menu-title">Index</h1>
+            
+            <section class="side-menu-item">
+                <h1>Introduction</h1>
+            </section>
+
+            <section class="side-menu-item">
+                <h1>Description</h1>
+            </section>
+
+            <section class="side-menu-item">
+                <h1>Abilities</h1>
+            </section>
+
+            <section class="side-menu-item">
+                <h1>Projects</h1>
+            </section>
+
+        </article>
+
+        <section onclick="menuInteraction()" id="menu-cover-zone" class="side-menu-cover-zone" style="z-index: 0;"></section>
+    </menu>
+
+
+
+    <!-- Header -->
+    <header>
         <section class="header-title">
             <p style="text-align: center;" class="font-title">Hi, I'm Adrian!</p>
         </section>
@@ -38,7 +117,7 @@
 
     </header>
 
-
+    <!-- First Section -->
     <section class="section-description">
 
         <article class="description-frame">
