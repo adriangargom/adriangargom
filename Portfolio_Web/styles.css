@@ -34,6 +34,8 @@ menu {
     width: 100%;
     height: 110%;
 
+    visibility: hidden;
+
     display: grid;
     grid-template-columns: 25% auto;
 }
@@ -120,9 +122,12 @@ menu {
     height: 10%;
 
     border-radius: 0px 20px 20px 0px;
+    border: 0px;
+    /*
     border-top: 5px solid #2A3036;
     border-right: 5px solid #2A3036;
     border-bottom: 5px solid #2A3036;
+    */
     background-color: #E56B46;
 }
 
@@ -239,13 +244,87 @@ header {
 }
 
 .description-frame {
+    padding: 5%;
+
     border-radius: 20px;
     background-color: #2A3036;
 }
 
+
+.description-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 8% auto;
+    gap: 2%;
+
+    padding-right: 5%;
+}
+
+.description-number-deco {
+    padding: 1%;
+    padding-left: 5%;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    border-right: 2px solid #E56B46;
+
+    color: #EDEEF0;
+}
+
+.description-text-deco {
+    text-align: left;
+
+    padding: 1%;
+    padding-left: 2%;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+
+    border-radius: 20px;
+    color: #EDEEF0; 
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1vw;
+    letter-spacing: 2px;
+}
+
+.description-text-deco:hover {
+    background-color: rgb(139, 148, 156);
+}
+
+
 .image-frame {
     border-radius: 20px;
     background-color: #2A3036;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5%;
+}
+
+.image-frame span {
+    color: #dbdbdb;
+    font-size: 5rem;
+
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    border-radius: 20px;
+}
+
+
+.image-frame span:hover {
+    background-color: #EDEEF0;
+    color: #E56B46;
+    cursor: pointer;
 }
 
 @media (max-width: 1000px) {
@@ -256,10 +335,15 @@ header {
     }
 
     .description-frame {
+        padding: 0%;
         height: 100%;
     }
 
     .image-frame {
         display: none;
+    }
+    
+    .description-text-deco {
+        font-size: 1rem;
     }
 }

@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- JS Code for the interactable menu-->
@@ -50,6 +54,11 @@
             }
         }
 
+        function scrollIntro(x) {
+            document.documentElement.scrollTop = x;
+            menuInteraction();
+        }
+
     </script>
 
 
@@ -70,11 +79,11 @@
             
             <h1 class="font-title side-menu-title">Index</h1>
             
-            <section class="side-menu-item">
+            <section onclick="scrollIntro(0)" class="side-menu-item">
                 <h1>Introduction</h1>
             </section>
 
-            <section class="side-menu-item">
+            <section onclick="scrollIntro(400)" class="side-menu-item">
                 <h1>Description</h1>
             </section>
 
@@ -91,12 +100,10 @@
         <section onclick="menuInteraction()" id="menu-cover-zone" class="side-menu-cover-zone" style="z-index: 0;"></section>
     </menu>
 
-
-
     <!-- Header -->
     <header>
         <section class="header-title">
-            <p style="text-align: center;" class="font-title">Hi, I'm Adrian!</p>
+            <p style="text-align: center;" class="font-title">Hi, I'm Adrian! ✍</p>
         </section>
 
         <section class="header-contacts">
@@ -121,9 +128,36 @@
     <section class="section-description">
 
         <article class="description-frame">
+            <div class="description-container">
+                <div class="description-number-deco">1</div>
+                <div class="description-text-deco">Hi, I'm a software developer</div>
+
+                <div class="description-number-deco">2</div>
+                <div class="description-text-deco">Based in Spain</div>
+
+                <div class="description-number-deco">3</div>
+                <div class="description-text-deco">Actually Studing Computer Sicence</div>
+            
+                <div class="description-number-deco">4</div>
+                <div class="description-text-deco">And eager to learn new skills and work in a professional enviroment</div>
+            </div>
         </article>
 
         <article class="image-frame">
+
+            <span class="material-symbols-outlined">
+                html
+            </span>
+            <span class="material-symbols-outlined">
+                css
+            </span>
+            <span class="material-symbols-outlined">
+                javascript
+            </span>
+            <span class="material-symbols-outlined">
+                php
+            </span>
+
         </article>
 
     </section>
