@@ -58,7 +58,6 @@
             document.documentElement.scrollTop = x;
             menuInteraction();
         }
-
     </script>
 
 
@@ -87,12 +86,12 @@
                 <h1>Description</h1>
             </section>
 
-            <section class="side-menu-item">
-                <h1>Abilities</h1>
+            <section onclick="scrollIntro(1200)" class="side-menu-item">
+                <h1>Projects</h1>
             </section>
 
             <section class="side-menu-item">
-                <h1>Projects</h1>
+                <h1>Habilities</h1>
             </section>
 
         </article>
@@ -126,7 +125,6 @@
 
     <!-- First Section -->
     <section class="section-description">
-
         <article class="description-frame">
             <div class="description-container">
                 <div class="description-number-deco">1</div>
@@ -161,6 +159,109 @@
         </article>
 
     </section>
+
+
+    <!-- Second Section -->
+    <section class="section-projects">
+        <article class="project-container">
+            <div onclick="projectBackwards()" class="project-arrow-container">
+                <span class="material-symbols-outlined">
+                arrow_back_ios_new
+                </span>
+            </div>
+
+            <div id="project-a" class="project-content-container">
+                <h1 class="project-title">SQL Client</h1>
+
+                <p class="project-description">
+                    I have developed an SQL client using python, 
+                    it consists on a simple terminal aplication 
+                    where you can connect to sqlservers loggin 
+                    in with your user in the Database
+                </p>
+
+                <button class="project-redirection-button">
+                    Check The Github Repo
+                </button>
+            </div>
+
+            <div id="project-b" class="project-content-container" style="display: none;">
+                <h1 class="project-title">Cloud File System</h1>
+
+                <p class="project-description">
+                    I have developed a file system aplication with
+                    with a React fontend and a backend builded with 
+                    nodeJS using express and TypeScript
+                </p>
+
+                <button class="project-redirection-button">
+                    Check The Github Repo
+                </button>
+            </div>
+
+            <div id="project-c" class="project-content-container" style="display: none;">
+                <h1 class="project-title">Rest API's</h1>
+
+                <p class="project-description">
+                    I have strong knowlege of building REST API with
+                    frameworks like express for JS and Typescript
+                    and FastAPI with python, and consuming them in the
+                    frontend Side
+                </p>
+
+                <button class="project-redirection-button">
+                    Check The Github Repo
+                </button>
+            </div>
+
+            <div id="project-d" class="project-content-container" style="display: none;">
+                <h1 class="project-title">Game Development</h1>
+
+                <p class="project-description">
+                    I've been developing several movile and desktop games 
+                    and aplications in the Unity engine with c#, 
+                    you can check some of my scripts at Github
+                </p>
+
+                <button class="project-redirection-button">
+                    Check The Github Repo
+                </button>
+            </div>
+
+            <div onclick="projectForward()" class="project-arrow-container">                
+                <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+        </article>
+
+    </section>
+
+
+    <script>
+        // Project Carrousel Script
+        var projectId = 0
+
+        var projects = [
+            document.getElementById("project-a").style,
+            document.getElementById("project-b").style,
+            document.getElementById("project-c").style,
+            document.getElementById("project-d").style
+        ]
+
+        function projectForward() {
+            projects[projectId].display = "none";
+            projectId = (projectId+1 == projects.length)? 0: projectId+1;
+            projects[projectId].display = "block";
+        }
+
+        function projectBackwards() {
+            projects[projectId].display = "none";
+            projectId = (projectId-1 == -1)? projects.length-1: projectId-1;
+            projects[projectId].display = "block";
+        }
+
+    </script>
 
 </body>
 </html>
