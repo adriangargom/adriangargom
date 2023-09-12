@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- JS Code for the interactable menu-->
+    <script>
+        var menuStatus = false;
+
+        function menuInteraction() {
+            var menuContainer = document.getElementById("menu-container").style;
+            var menuCoverZone = document.getElementById("menu-cover-zone").style;
+            var arrowIcon = document.getElementById("butto-arrow-icon").style;
+            var menu = document.getElementById("menu-element").style;
+
+            if(!menuStatus) {
+                menuContainer.transform = "scaleX(0)";
+                menuContainer.transform = "scaleY(0)";
+
+                menu.visibility = "visible";
+                
+                menuContainer.transform = "scaleX(1)";
+                menuCoverZone.transform = "scaleY(1)";
+
+                arrowIcon.transform = "rotate(180deg)";
+                
+                menuStatus = true;
+
+            }else {
+                menuContainer.transform = "scaleX(0)";
+                menuCoverZone.transform = "scaleY(0)";
+
+                arrowIcon.transform = "rotate(360deg)";
+                
+                menuStatus = false;
+
+                setTimeout(() => {
+                    document.getElementById("menu-element").style.visibility = "hidden";
+                }, 500)
+            }
+        }
+    </script>
+
+
+</head>
+<body>
+
+    <!-- Side Menu -->
+
+    <button onclick="menuInteraction()" class="side-menu-open-button" style="z-index: 1;">
+        <span id="butto-arrow-icon" class="material-symbols-outlined">
+            arrow_forward_ios
+        </span>
+    </button>
+
+    <menu id="menu-element">
+        <article id="menu-container" class="side-menu" style="z-index: 1;">
+            
+            
+            <h1 class="font-title side-menu-title">Index</h1>
+            
+            <section onclick="scrollIntro(0)" class="side-menu-item">
+                <h1>Introduction</h1>
+            </section>
+
+            <section onclick="scrollIntro(400)" class="side-menu-item">
+                <h1>Description</h1>
+            </section>
+
+            <section onclick="scrollIntro(1200)" class="side-menu-item">
+                <h1>Projects</h1>
+            </section>
+
+            <section onclick="scrollIntro(1900)" class="side-menu-item">
+                <h1>Skills</h1>
+            </section>
+
+        </article>
+
+        <section onclick="menuInteraction()" id="menu-cover-zone" class="side-menu-cover-zone" style="z-index: 0;"></section>
+    </menu>
+
+    <!-- Header -->
+    <header>
+        <section class="header-title">
+            <p style="text-align: center;" class="font-title">Hi, I'm Adrian! ✍</p>
+        </section>
+
+        <section class="header-contacts">
+
+            <div class="header-contacts-item">
+                <img class="header-contacts-logo" width="50%" src="./Images/email.png"/>
+            </div>
+    
+            <div class="header-contacts-item">
+                <img class="header-contacts-logo" width="50%" src="./Images/github.png"/>
+            </div>
+            
+            <div class="header-contacts-item">
+                <img class="header-contacts-logo" width="50%" src="./Images/linkedin.png"/>
+            </div>
+
+        </section>
+
+    </header>
+
+    <!-- First Section -->
+    <section class="section-description">
+        <article class="description-frame">
+            <div class="description-container">
+                <div class="description-number-deco">1</div>
+                <div class="description-text-deco">Hi, I'm a software developer</div>
+
+                <div class="description-number-deco">2</div>
+                <div class="description-text-deco">Based in Spain</div>
+
+                <div class="description-number-deco">3</div>
+                <div class="description-text-deco">Actually Studing Computer Sicence</div>
+            
+                <div class="description-number-deco">4</div>
+                <div class="description-text-deco">And eager to learn new skills and work in a professional enviroment</div>
+            </div>
+        </article>
+
+        <article class="image-frame">
+
+            <span class="material-symbols-outlined">
+                terminal
+            </span>
+
+        </article>
+
+    </section>
+
+
+    <!-- Second Section -->
+    <section class="section-projects">
+        <article class="project-container">
+            <div onclick="projectBackwards()" class="project-arrow-container">
+                <span class="material-symbols-outlined">
+                arrow_back_ios_new
+                </span>
+            </div>
+
+            <div id="project-a" class="project-content-container">
+                <h1 class="project-title">SQL Client</h1>
+
+                <p class="project-description">
+                    I have developed an SQL client using python, 
+                    it consists on a simple terminal aplication 
+                    where you can connect to sqlservers loggin 
+                    in with your user in the Database
+                </p>
+
+                <button class="project-redirection-button">
+                    Check The Github Repo
+                </button>
+            </div>
+
+            <div id="project-b" class="project-content-container" style="display: none;">
+                <h1 class="project-title">Cloud File System</h1>
+
+                <p class="project-description">
+                    I have developed a file system aplication with
+                    with a React fontend and a backend builded with 
+                    nodeJS using express and TypeScript
+                </p>
+
+                <button class="project-redirection-button">
+                    Check The Github Repo
+                </button>
+            </div>
+
+            <div id="project-c" class="project-content-container" style="display: none;">
+                <h1 class="project-title">Rest API's</h1>
+
+                <p class="project-description">
+                    I have strong knowlege of building REST API with
+                    frameworks like express for JS and Typescript
+                    and FastAPI with python, and consuming them in the
+                    frontend Side
+                </p>
+
+                <button class="project-redirection-button">
+                    Check The Github Repo
+                </button>
+            </div>
+
+            <div id="project-d" class="project-content-container" style="display: none;">
+                <h1 class="project-title">Game Development</h1>
+
+                <p class="project-description">
+                    I've been developing several movile and desktop games 
+                    and aplications in the Unity engine with c#, 
+                    you can check some of my scripts at Github
+                </p>
+
+                <button class="project-redirection-button">
+                    Check The Github Repo
+                </button>
+            </div>
+
+            <div onclick="projectForward()" class="project-arrow-container">                
+                <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+        </article>
+
+    </section>
+
+
+    <!-- Aptitudes Section -->
+    <section class="section-aptitudes">
+
+        <article class="aptitudes-container">
+            <h1>Programming Languages</h1>
+            <hr class="aptitudes-decoration-line">
+            <ul>
+                <li>Python</li>
+                <li>Java Script</li>
+                <li>Java</li>
+                <li>C#</li>
+            </ul>
+        </article>
+
+        <article class="aptitudes-container">
+            <h1>App Development</h1>
+            <hr class="aptitudes-decoration-line">
+            <ul>
+                <li>Android Studio</li>
+                <li>Unity</li>
+                <li>Electrone</li>
+                <li>Windows Forms</li>
+            </ul>
+        </article>
+
+        <article class="aptitudes-container">
+            <h1>Web Development</h1>
+            <hr class="aptitudes-decoration-line">
+            <h4>Frontend</h2>
+            <ul>
+                <li>HTML, CSS</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+            </ul>
+            <h4>Backend</h2>
+            <ul>
+                <li>Node JS</li>
+                <li>Express JS</li>
+                <li>Flask</li>
+                <li>Fast API</li>
+            </ul>
+        </article>
+
+        <article class="aptitudes-container">
+            <h1>Other Skills</h1>
+            <hr class="aptitudes-decoration-line">
+            <ul>
+                <li>SQL (MySQL, MariaDB)</li>
+                <li>MongoDB</li>
+                <li>API Workflow</li>
+                <li>Git and Github</li>
+                <li>Data Structures and Algorithms knowlege</li>
+                <li>Problem Solving Skills</li>
+            </ul>
+        </article>
+
+    </section>
+
+    <!-- Footer -->
+    <footer onclick="scrollToTop()">
+        <span style="font-size: 3rem; color: #2A3036;" class="material-symbols-outlined">
+            arrow_drop_up
+            </span>
+    </footer>
+
+    <script>
+        // Project Carrousel Script
+        var projectId = 0
+
+        var projects = [
+            document.getElementById("project-a").style,
+            document.getElementById("project-b").style,
+            document.getElementById("project-c").style,
+            document.getElementById("project-d").style
+        ]
+
+        function projectForward() {
+            projects[projectId].display = "none";
+            projectId = (projectId+1 == projects.length)? 0: projectId+1;
+            projects[projectId].display = "block";
+        }
+
+        function projectBackwards() {
+            projects[projectId].display = "none";
+            projectId = (projectId-1 == -1)? projects.length-1: projectId-1;
+            projects[projectId].display = "block";
+        }
+
+        // Page Scroll Navigation
+        function scrollIntro(x) {
+            document.documentElement.scrollTop = x;
+            menuInteraction();
+        }
+
+        function scrollToTop() {
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+
+</body>
+</html>
