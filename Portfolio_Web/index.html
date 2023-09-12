@@ -53,11 +53,6 @@
                 }, 500)
             }
         }
-
-        function scrollIntro(x) {
-            document.documentElement.scrollTop = x;
-            menuInteraction();
-        }
     </script>
 
 
@@ -90,8 +85,8 @@
                 <h1>Projects</h1>
             </section>
 
-            <section class="side-menu-item">
-                <h1>Habilities</h1>
+            <section onclick="scrollIntro(1900)" class="side-menu-item">
+                <h1>Skills</h1>
             </section>
 
         </article>
@@ -144,16 +139,7 @@
         <article class="image-frame">
 
             <span class="material-symbols-outlined">
-                html
-            </span>
-            <span class="material-symbols-outlined">
-                css
-            </span>
-            <span class="material-symbols-outlined">
-                javascript
-            </span>
-            <span class="material-symbols-outlined">
-                php
+                terminal
             </span>
 
         </article>
@@ -238,6 +224,71 @@
     </section>
 
 
+    <!-- Aptitudes Section -->
+    <section class="section-aptitudes">
+
+        <article class="aptitudes-container">
+            <h1>Programming Languages</h1>
+            <hr class="aptitudes-decoration-line">
+            <ul>
+                <li>Python</li>
+                <li>Java Script</li>
+                <li>Java</li>
+                <li>C#</li>
+            </ul>
+        </article>
+
+        <article class="aptitudes-container">
+            <h1>App Development</h1>
+            <hr class="aptitudes-decoration-line">
+            <ul>
+                <li>Android Studio</li>
+                <li>Unity</li>
+                <li>Electrone</li>
+                <li>Windows Forms</li>
+            </ul>
+        </article>
+
+        <article class="aptitudes-container">
+            <h1>Web Development</h1>
+            <hr class="aptitudes-decoration-line">
+            <h4>Frontend</h2>
+            <ul>
+                <li>HTML, CSS</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+            </ul>
+            <h4>Backend</h2>
+            <ul>
+                <li>Node JS</li>
+                <li>Express JS</li>
+                <li>Flask</li>
+                <li>Fast API</li>
+            </ul>
+        </article>
+
+        <article class="aptitudes-container">
+            <h1>Other Skills</h1>
+            <hr class="aptitudes-decoration-line">
+            <ul>
+                <li>SQL (MySQL, MariaDB)</li>
+                <li>MongoDB</li>
+                <li>API Workflow</li>
+                <li>Git and Github</li>
+                <li>Data Structures and Algorithms knowlege</li>
+                <li>Problem Solving Skills</li>
+            </ul>
+        </article>
+
+    </section>
+
+    <!-- Footer -->
+    <footer onclick="scrollToTop()">
+        <span style="font-size: 3rem; color: #2A3036;" class="material-symbols-outlined">
+            arrow_drop_up
+            </span>
+    </footer>
+
     <script>
         // Project Carrousel Script
         var projectId = 0
@@ -259,6 +310,16 @@
             projects[projectId].display = "none";
             projectId = (projectId-1 == -1)? projects.length-1: projectId-1;
             projects[projectId].display = "block";
+        }
+
+        // Page Scroll Navigation
+        function scrollIntro(x) {
+            document.documentElement.scrollTop = x;
+            menuInteraction();
+        }
+
+        function scrollToTop() {
+            document.documentElement.scrollTop = 0;
         }
 
     </script>
