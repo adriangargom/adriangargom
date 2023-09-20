@@ -30,7 +30,7 @@ Also in that time i have developed plenty of projects so you can take a look at 
 # Web Porfolio
 Check My web porfolio at the following link
 
-![![Static Badge](https://img.shields.io/badge/Link-%231D7874?link=https%3A%2F%2Fhtmlpreview.github.io%2F%3Fhttps%3A%2F%2Fgithub.com%2Fadriangargom%2Fadriangargom%2Ftree%2Fmain%2FPortfolio_Web)](https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/tree/main/Portfolio_Web)
+![Static Badge](https://img.shields.io/badge/Link-%231D7874)(https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/tree/main/Portfolio_Web)
 
 <!--
 # Projects ✍
