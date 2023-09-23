@@ -5,9 +5,9 @@ https://camo.githubusercontent.com/49c7728e1004e855177c4b583baabe412d5563fbbdb38
 <img src="https://github.com/images/mona-whisper.gif"  width="50" height="50">
 -->
 
-# Hello World!, I'm Adrian 
+# Hello World!, <img src="https://github.com/images/mona-whisper.gif"  width="50" height="50"> I'm Adrian 
 
-<img src="https://github.com/images/mona-whisper.gif"  width="50" height="50">
+
 
 I'm a software Developer based in Barcelona , and i am currently studying a higher level training cycle in multiplatform application development (DAM)
 <br><br>
