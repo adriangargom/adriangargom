@@ -9,7 +9,7 @@ https://camo.githubusercontent.com/49c7728e1004e855177c4b583baabe412d5563fbbdb38
 
 # Hello World!, I'm Adrian ![image](https://github.com/images/mona-whisper.gif)
 
-# Esto es un encabezado ![Descripción del GIF]([tu_gif.gif](https://github.com/images/mona-whisper.gif))
+
 
 I'm a software Developer based in Barcelona , and i am currently studying a higher level training cycle in multiplatform application development (DAM)
 <br><br>
