@@ -1,6 +1,12 @@
-<img src="https://github.com/adriangargom/adriangargom/blob/main/Banner.png"/>
+<style>
+  p {
+    font-size: 100px;
+  }
+</style>
 
-# Hello World! <img src="https://github.com/adriangargom/adriangargom/blob/main/mona-whisper.gif"  width="50" height="50">, I'm Adrian
+<img src="https://github.com/adriangargom/adriangargom/blob/main/Banner.png"/>
+<p>Hello World!, I'm Adrian</p>
+<img src="https://github.com/adriangargom/adriangargom/blob/main/mona-whisper.gif"  width="50" height="50">
 
 
 I'm a software Developer based in Barcelona , and i am currently studying a higher level training cycle in multiplatform application development (DAM)
@@ -26,12 +32,14 @@ Also in that time i have developed plenty of projects so you can take a look at 
 |Backend Development |![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)|
 |Other               |![Mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![Sqlite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)|
 
+<
 # Web Porfolio
+<!--
 Check My web porfolio at the following link
 
 [<img alt="Static Badge" src="https://img.shields.io/badge/Click%20Me-%231D7874">](https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/tree/main/Portfolio_Web)
 
-<!--
+
 # Projects ✍
 **adriangargom/adriangargom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
