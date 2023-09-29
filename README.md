@@ -1,13 +1,8 @@
-<style>
-  p {
-    font-size: 100px;
-  }
-</style>
+
 
 <img src="https://github.com/adriangargom/adriangargom/blob/main/Banner.png"/>
-<p>Hello World!, I'm Adrian</p>
-<img src="https://github.com/adriangargom/adriangargom/blob/main/mona-whisper.gif"  width="50" height="50">
 
+# Hello World!, <img src="https://github.com/images/mona-whisper.gif" align="center" width="50" height="50"> I'm Adrian
 
 I'm a software Developer based in Barcelona , and i am currently studying a higher level training cycle in multiplatform application development (DAM)
 <br><br>
