@@ -30,6 +30,15 @@ Also in that time i have developed plenty of projects so you can take a look at 
 |Backend Development |![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)|
 |Other               |![Mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![Sqlite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)|
 
+# Projects ✍
+
+## Python SQL Client 🐍
+
+The following project consist on a simple console aplication that enables the user to stablish and manage various connections simultaneously over SQL servers, make queries to that servers and perform diverse actions.
+
+## PHP Home Cloud ☁
+
+The following project is a web file sistem aplication, where you can upload, create, delete and download the all the files that are stored inside of the server, it also enables the posibility to manage users, its build in PHP and runs on an apache2 backend.
 
 # Web Porfolio
 
