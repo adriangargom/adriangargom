@@ -33,7 +33,7 @@ Also in that time i have developed plenty of projects so you can take a look at 
 
 # Web Porfolio
 
-[<img alt="Static Badge" src="https://img.shields.io/badge/Check%20My%20web%20porfolio%20at%20the%20following%20link-%231D7874">](https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/tree/main/Portfolio_Web)
+[<img alt="Static Badge" src="https://img.shields.io/badge/Check%20My%20web%20porfolio%20at%20the%20following%20link-%23e56b46">](https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/tree/main/Portfolio_Web)                                                  
 
 <!--
 
