@@ -1,8 +1,10 @@
 
 
 <img src="https://github.com/adriangargom/adriangargom/blob/main/Banner.png"/>
-
-# Hello World!, <img src="https://github.com/images/mona-whisper.gif" align="center" width="50" height="50"> I'm Adrian
+<!--
+<img src="https://github.com/images/mona-whisper.gif" align="center" width="30" height="30">
+-->
+<h1>Hello World!, I'm Adrian</h1>
 
 I'm a software Developer based in Barcelona , and i am currently studying a higher level training cycle in multiplatform application development (DAM)
 <br><br>
@@ -11,6 +13,7 @@ I have several years of experience in the world of Computer Science and more spe
 Also in that time i have developed plenty of projects so you can take a look at some of them in my Github portfolio or my Linkedin account
 <br>
 <br>
+
 
 [![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adriangargom)
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/adriangargom)
@@ -30,12 +33,10 @@ Also in that time i have developed plenty of projects so you can take a look at 
 
 # Web Porfolio
 
-Check My web porfolio at the following link
-
-[<img alt="Static Badge" src="https://img.shields.io/badge/Click%20Me-%231D7874">](https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/tree/main/Portfolio_Web)
-
+[<img alt="Static Badge" src="https://img.shields.io/badge/Check%20My%20web%20porfolio%20at%20the%20following%20link-%231D7874">](https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/tree/main/Portfolio_Web)
 
 <!--
+
 # Projects ✍
 **adriangargom/adriangargom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
