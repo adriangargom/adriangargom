@@ -1,9 +1,5 @@
-
-
 <img src="https://github.com/adriangargom/adriangargom/blob/main/Banner.png"/>
-<!--
-<img src="https://github.com/images/mona-whisper.gif" align="center" width="30" height="30">
--->
+
 <h1>Hello World!, I'm Adrian</h1>
 
 I'm a software Developer based in Barcelona, and I am currently studying a higher level training cycle in multi-platform application development (DAM)
@@ -43,20 +39,3 @@ The following project is a web file system application, where you can upload, cr
 # Web Porfolio
 
 [<img alt="Static Badge" src="https://img.shields.io/badge/Check%20My%20web%20porfolio%20at%20the%20following%20link-%23e56b46">](https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/tree/main/Portfolio_Web)                                                  
-
-<!--
-
-# Projects ✍
-**adriangargom/adriangargom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
