@@ -6,7 +6,7 @@
 	-o-transition: all .5s ease;
 	transition: all .5s ease;
 
-    user-select: none;
+    /*user-select: none;*/
 }
 
 /* Fonts */
