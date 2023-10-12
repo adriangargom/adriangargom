@@ -28,12 +28,7 @@ Also in that time I have developed plenty of projects, so you can take a look at
 
 # Projects ✍
 
-## Python SQL Client 🐍
-
-The following project consist on a simple console application that enables the user to establish and manage various connections simultaneously over SQL servers, make queries to that servers and perform diverse actions.
-
-## PHP Home Cloud ☁
-
+### PHP Home Cloud ☁
 The following project is a web file system application, where you can upload, create, delete and download the all the files that are stored inside the server, it also enables the possibility to manage users, it's build in PHP and runs on an apache2 backend.
 
 # Web Porfolio
