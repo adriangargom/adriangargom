@@ -29,6 +29,13 @@ Also in that time I have developed plenty of projects, so you can take a look at
 ### PHP Home Cloud ☁
 The following project is a web file system application, where you can upload, create, delete and download the all the files that are stored inside the server, it also enables the possibility to manage users, it's build in PHP and runs on an apache2 backend.
 
+[<img alt="Static Badge" src="https://img.shields.io/badge/Check%20the%20project-%23e56b46">](https://github.com/adriangargom/PHP-home-Cloud) 
+
+### CopernicJobs ERP 📚
+This project consists on a basic application for the Nicolau Copernic Institute, with witch new and old students can enroll to new offers published by companies with access to the platform , it's build with a Java SpringBoot REST API backend and a ReactJS frontend
+
+[<img alt="Static Badge" src="https://img.shields.io/badge/Check%20the%20project-%23e56b46">](https://github.com/adriangargom/Project_Copernic_Jobs)                                                  
+
 # Web Porfolio
 
 [<img alt="Static Badge" src="https://img.shields.io/badge/Check%20My%20web%20porfolio%20at%20the%20following%20link-%23e56b46">](https://htmlpreview.github.io/?https://github.com/adriangargom/adriangargom/blob/main/Portfolio_Web/index.html)                                                  
