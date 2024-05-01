@@ -27,10 +27,19 @@ Also in that time I have developed plenty of projects, so you can take a look at
 # Projects ✍
 
 ### [PHP Home Cloud ☁](https://github.com/adriangargom/PHP-home-Cloud)
-The following project is a web file system application, where you can upload, create, delete and download the all the files that are stored inside the server, it also enables the possibility to manage users, it's build in PHP and runs on an apache2 backend.
+The following project is a web file system application, where you can upload, create, 
+delete and download the all the files that are stored inside the server, 
+it also enables the possibility to manage users, it's build in PHP and runs on an apache2 backend.
 
 ### [Copernic Jobs ERP 📚](https://github.com/adriangargom/Project_Copernic_Jobs)
-This project consists of a basic application for the Nicolau Copernic Institute, with which new and old students can enroll to new offers published by companies with access to the platform, it's build with a Java SpringBoot REST API backend and a ReactJS frontend
+This project consists of a basic application for the Nicolau Copernic Institute, 
+with which new and old students can enroll to new offers published by companies with access to the platform, 
+it's build with a Java SpringBoot REST API backend and a ReactJS frontend
+
+### [Exchange Android App 🗺️](https://github.com/adriangargom/Project_Exchange)
+This project consists of a native android application that allows users to exchange items from all around the world, 
+also, implements a chat system that allows the users to talk between them when they are interested in one item, 
+and view all the published offers in a global map.
 
 <br/>
 
