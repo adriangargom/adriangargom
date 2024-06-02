@@ -39,7 +39,7 @@ A basic application designed for the Nicolau Copernic Institute. It allows both 
 ### [Exchange Android App 🗺️](https://github.com/adriangargom/Project_Exchange)
 This project is a native Android application that enables users to exchange items globally. It includes a chat system for communication between users interested in specific items, as well as a global map to view all published offers.
 
-### [Lost Woods 🌲](https://github.com/adriangargom/Project_LoostWoods)
+### [Lost Woods Video Game 🌲](https://github.com/adriangargom/Project_LoostWoods)
 A low-poly roguelike video game developed using the Unity engine. The player navigates through various rooms, defeating randomized enemies within them. Additionally, the player can find random items in the rooms, which can be used to purchase new power-ups to level up. As the player progresses, enemy stats increase, making the adventure more challenging.
 
 # Web Portfolio
