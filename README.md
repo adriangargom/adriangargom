@@ -1,10 +1,10 @@
 <img src="https://github.com/adriangargom/adriangargom/blob/main/banner.jpg"/>
 
-# Hello World! <img width=50px src="https://user-images.githubusercontent.com/64751167/95435221-f0266500-096f-11eb-8070-57f6721b1857.gif"> I'm Adrian
+# Hello! <img width=50px src="https://user-images.githubusercontent.com/64751167/95435221-f0266500-096f-11eb-8070-57f6721b1857.gif"> My name is Adrián.
 
-I'm a software developer based in Barcelona, currently studying an Advanced Vocational Training program in Multi-Platform Application Development (DAM).
-<br><br>
-I love the world of Computer Science and have a deep passion for software development. Over the past few years, I have learned many tools and built various projects with them. You can take a look at my portfolio to see my work.
+I am a software developer currently pursuing a Bachelor's Degree in Computer Science. With a strong passion for problem-solving, I focus on delivering clean and efficient solutions, leveraging both my academic background and self-taught knowledge across various fields, while constantly staying updated with the latest technologies and best practices.
+
+Feel free to explore my GitHub portfolio, where you’ll find a selection of the projects I’ve worked on.
 <hr>
 
 Do not hesitate to contact me through the following sources:
