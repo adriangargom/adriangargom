@@ -36,9 +36,6 @@ a user-friendly and responsive interface.
 - 🌍 `Interactive 3D Environment`: Modify and explore objects in a 3D space.
 - 🖥️ `Responsive UI`: Designed to be easy to use for all the users.
 
-The application is deployed and can be tried at the following link:
-👉 [Try Vortex Editor](https://vortex-editor-37e8d.web.app/editor)
-
 ### [Thunderstorm Cloud ☁](https://github.com/adriangargom/Project_Thunderstorm_Cloud)
 This project consists on a web file system application, where the user can log in with his account
 and perform common actions inside a file system environment, also allows other options like:
